@@ -48,7 +48,7 @@ Make sure you have installed:
    ```bash
    cp .env.example .env
    php artisan key:generate
-   You can copy my database too.
+   # You can copy my database too.
 
 3. **Install dependencies**
     ```bash
