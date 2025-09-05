@@ -45,22 +45,28 @@ Make sure you have installed:
    git clone https://github.com/kietsengly/lykietseng_newsportal_project.git
    cd lykietseng_newsportal_project
 2. **Environment setup**
-cp .env.example .env
-php artisan key:generate
+   ```bash
+   cp .env.example .env
+   php artisan key:generate
+   You can copy my database too.
 
-3.Install dependencies
-composer install
-npm install
-npm run build   # or npm run dev for hot reload
+3. **Install dependencies**
+    ```bash
+    composer install
+    npm install
+    npm run build   # or npm run dev for hot reload
 
-4.Setup database
-php artisan migrate --seed
+4. **Setup database**
+    ```bash
+    php artisan migrate --seed
 
+5. **Default Login Credentials**
+    ```bash
+    Admin	admin@gmail.com password is password
+    Writer	writer@gmail.com password 12345678
+    User	user123@gmail.com 12345678
 
-Admin	admin@gmail.com password is password
-Writer	writer@gmail.com password 12345678
-User	user123@gmail.com 12345678
-
-Run the Application
+**Run the Application**
+```bash
 php artisan serve
 
